@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 def magic_calculation(a, b):
+    """Magic calculation task8."""
     from magic_calculation_102 import add, sub
 
     if a < b:
