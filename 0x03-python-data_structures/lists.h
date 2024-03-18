@@ -11,7 +11,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
+ * palindrome project
  */
 typedef struct listint_s
 {
