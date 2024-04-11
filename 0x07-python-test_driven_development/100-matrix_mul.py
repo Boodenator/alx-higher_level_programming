@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-'''Involving a matrix_mul and get_matrix_size for TDD project.
+'''Contains a get_matrix_size and a matrix_mul function for a TDD project.
 '''
 
 
 def get_matrix_sizes(matrix_1, matrix_2, name_1, name_2):
-    '''Calculates the size of a matrix and performs some
+    '''Computes the size of a matrix and performs some
     matrix validation.
     Args:
         matrix (list): The matrix.
-        name (str): The matrix name.
+        name (str): The name of the matrix.
     Returns:
         list. The rows and columns of the given matrix.
     '''
