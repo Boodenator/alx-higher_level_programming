@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Involvong a matrix_mul and get_matrix_size for TDD project.
+'''Involving a matrix_mul and get_matrix_size for TDD project.
 '''
 
 
@@ -13,10 +13,10 @@ def get_matrix_sizes(matrix_1, matrix_2, name_1, name_2):
         list. The rows and columns of the given matrix.
     '''
     funcs = (
-        lambda txt: '{} should be a list'.format(txt),
+        lambda txt: '{} must be a list'.format(txt),
         lambda txt: '{} can\'t be empty'.format(txt),
-        lambda txt: '{} should be a list of lists'.format(txt),
-        lambda txt: '{} should contain only integers or floats'.format(txt),
+        lambda txt: '{} must be a list of lists'.format(txt),
+        lambda txt: '{} must contain only integers or floats'.format(txt),
         lambda txt: 'each row of {} must be of the same size'.format(txt),
         lambda l: all(map(lambda n: isinstance(n, (int, float)), l)),
     )
