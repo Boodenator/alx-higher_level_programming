@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 2-is_same_class.py
-# Abdelrhman D Ahmed <1235@tempmail.com>
 """Defines a class-checking function."""
 
 
