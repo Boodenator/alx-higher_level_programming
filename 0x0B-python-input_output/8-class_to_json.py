@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''definition of function to return the dictionary description with simple data structure
+'''function definition returns the dictionary description with simple data structure
 '''
 
 
