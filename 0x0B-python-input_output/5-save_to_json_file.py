@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' function able to writes an Object to the text file, using a JSON representation
+''' function that writes an Object to a text file, using a JSON representation
 '''
 import json
 
