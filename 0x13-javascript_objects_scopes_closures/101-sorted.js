@@ -1,13 +1,13 @@
 #!/usr/bin/node
 const dict = require('./101-data').dict;
-const newDictn = {};
+const myDictn = {};
 
 for (const key in dict) {
-  if (!newDictn[dict[key]]) {
-    newDictn[dict[key]] = [key];
+  if (!myDictn[dict[key]]) {
+    myDictn[dict[key]] = [key];
   } else {
-    newDictn[dict[key]].push(key);
+    myDictn[dict[key]].push(key);
   }
 }
 
-console.log(newDictn);
+console.log(myDictn);
