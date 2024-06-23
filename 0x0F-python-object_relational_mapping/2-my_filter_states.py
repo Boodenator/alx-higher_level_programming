@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-script with arguments as input and values arranged in 
-a table as output of hbtn_0e_usa.
+script for inputting an argument and show all values for names 
+matching args the states table of hbtn_0e_0_usa.
 """
 
+import MySQLdb
 import sys
-import MYSQLdb
 
 
 if __name__ == '__main__':
