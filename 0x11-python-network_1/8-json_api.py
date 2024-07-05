@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Python script which 
-- inputs a letter
-- sends POST request to http://0.0.0.0:5000/search_user
+"""Python script which
+inputs a letter
+sends POST request to http://0.0.0.0:5000/search_user
 including the letter as a parameter.
 """
 import requests
